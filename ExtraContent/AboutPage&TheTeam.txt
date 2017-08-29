@@ -1,0 +1,37 @@
+THE TEAM
+
+Jana Coetzee - Lead Designer and Project Manager
+
+Grant Smith - Lead Programmer and Technical advisor
+
+Currently studying Multimedia at the University of Pretoria, before that went to st Peter's College. Making use of PHP, Javascript and HTML knowledge
+to benefit the website and make it feel alive, immersive and interactive. Enjoys gaming, watching series, web development and long walks on the beach. 
+
+Joel Chigumba - Code specialist
+
+Studies at the University of Pretoria and graduated from King Edward VII School. His interestes are Movies, series, games and web development. 
+As a code specialist he helps develop interactive code for the website. He enjoys coding, listening to music and ballet 
+
+Peter Rayner - Design advisor
+
+Went to Pretoria Boys High, currently studying at the University of Pretoria. Interests include: aeroplanes, cars and IT.
+Enjoys playing video games and flying planes and romantic comedies. Using his techinical knowledge of web development and design, he ensures that the website runs 
+smoothly,efficiently and is accessible 
+
+Jon-Ptr Taljaard - Animator and Personal Assistant
+
+Studying at the University of Pretoria after graduating from Hoerskool Jeugland. His skills in animation help to make the website unique and vibrant. 
+His interests are animation, knifes and fighter jets. He enjoys animation, gaming and cuddling 
+
+ABOUT PAGE
+
+We're all about the experience of games . We wanted to make a game that made the player think about a situation, giving them the choice on how
+to complete each task, giving them a sense of freedom while still placing them in a situation which requires them to go from point A to point B. The player will 
+experience the game along side the protagonist, learning as she learns and discovering the "world" as she does. 
+
+This website is here to explain the game and add more detail and backstory without affecting the game's story. The game's atmosphere is rather dark and eerie 
+and the website mimics this using dark colours and little lighting and like the the game the website will make use of interaction to explore each page, whether 
+that means opening a door or just clicking a link. 
+    
+
+
