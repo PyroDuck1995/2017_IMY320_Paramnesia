@@ -1,0 +1,111 @@
+body {
+	color:white;
+/*	overflow-y: scroll;*/
+}
+
+
+@font-face {
+    font-family: font;
+    src: url('../fonts/FoglihtenFr01.otf');
+}
+
+
+h1	{
+	font-family: font;
+	font-size:40pt;
+	text-align:center
+}
+
+#insignia	{
+	font-family: font;
+	font-size:90pt;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	margin-right:30px;
+	margin-bottom:00px;
+}
+
+.vertical{
+	writing-mode: sideways-lr;
+	/*text-orientation: upright;*/
+}			
+
+.center {
+	position: fixed; /* or absolute */
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+a { 
+	color: inherit;
+	text-decoration:none	
+} 
+
+h2	{
+	font-family: font;
+	font-size:50pt;
+	vertical-align:left;
+	text-align:left;
+	float:left
+}
+
+/*.rotate {
+	transform-origin: left middle 0;
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+	transform: rotate(90deg);
+	transform-origin: left top 0;
+	float: left;
+	float:left
+}*/
+
+#menu
+{
+	font-family: font;
+	font-size:20pt;
+	vertical-align:left;
+	text-align:inline;
+	float:left;	
+}
+
+ul{
+	list-style-type: none
+}
+
+li {
+    display: inline;
+}
+
+p
+{
+	font-family:Arial;
+	font-size:11pt
+}
+
+#aboutmiddleblock
+{
+	height:1100px;
+	
+	margin-left:25%;
+	margin-right:25%;
+	margin-top:0%;
+	padding:15px;
+	background-color: rgba(0,0,0,0.7)
+}
+
+#yellowblock
+{
+	
+	background-color:yelow;
+}
+
+td
+{
+	padding:10px
+
+}
