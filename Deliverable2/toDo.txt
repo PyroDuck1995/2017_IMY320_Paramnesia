@@ -1,7 +1,7 @@
 ---CSS---
 - Sort out center black block
 - Add mustard block behind black block (mustard colour can be found on the .psd file)
-- Modify the menu so that it is visible at all times when scrolling down. Ie, it stays static and the rest of the page moves.
+- Modify the menu so that it is visible at all times when scrolling down. Same for the P insignia. Ie, it stays static and the rest of the page moves.
 
 ---JS---(mercy be upon you)
 - Add and implement the cursor symbols. When going up the symbol should become larger. Same for going down.
