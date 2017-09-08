@@ -41,8 +41,10 @@ body {
 }
 
 .vertical{
-	writing-mode: sideways-lr;
-	/*text-orientation: upright;*/
+	/*writing-mode: sideways-lr;
+	-webkit-writing-mode: sideways-lr;*/
+	transform: rotate(90deg);
+/*	transform-origin: left top 0; */
 }
 
 .center {
@@ -153,6 +155,7 @@ h2	{
 
 #menu ul{
 	list-style-type: none;
+	width:500px;
 }
 
 #menu li {
