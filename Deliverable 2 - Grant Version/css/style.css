@@ -1,0 +1,404 @@
+@font-face {
+    font-family: fog;
+    src: url('../fonts/FoglihtenFr01.otf');
+}
+
+@font-face {
+    font-family: old;
+    src: url('../fonts/old.ttf');
+}
+
+@font-face {
+    font-family: oldSlant;
+    src: url('../fonts/oldSlant.ttf');
+}
+
+body {
+	color:white;
+	font-family:Arial;
+	font-size:11pt;
+/*	overflow-y: scroll;*/
+}
+
+#title{
+	font-family:old;
+	text-shadow: 0 0 10px #FFF;
+	font-size:60pt;
+	margin:0px auto 15px auto;
+	text-align: center;
+}
+
+/* USED BY ALL */
+#insignia	{
+	font-family: fog;
+	font-size:80pt;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	margin-right:30px;
+	margin-bottom:00px;
+	position:fixed;
+}
+
+.vertical{
+	writing-mode: sideways-lr;
+	/*text-orientation: upright;*/
+}
+
+.center {
+	position: fixed; /* or absolute */
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+a{
+	text-decoration: none;
+	color: #FFF;
+}
+
+a:hover	{
+	color:#bda50f;
+}
+
+
+
+/*START PAGE */
+
+#start_page{
+	background-color: #FFF;
+	background-image: url("../images/enter.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+#enter{
+	font-family: fog;
+	font-size:25pt;
+	text-align:center;
+	color:#FFF;
+	text-decoration:none;
+}
+
+#enter:visited{
+	color:#FFF;
+}
+
+#enter:hover	{
+	color:#bda50f;
+}
+
+#light {
+	position:absolute;
+	left: 0;
+	top:0;
+	z-index: -1;
+	width:100%;
+	height:100%;
+}
+
+
+h2	{
+	font-family: font;
+	font-size:50pt;
+	vertical-align:left;
+	text-align:left;
+	float:left;
+}
+
+/*.rotate {
+	transform-origin: left middle 0;
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+	transform: rotate(90deg);
+	transform-origin: left top 0;
+	float: left;
+	float:left
+}*/
+
+/* MAIN PAGE */
+
+#main_page{
+	background-color:#000;
+	/*background-image: url("../images/darkCorridor.png");*/
+	background-size:90%;
+	margin:0;
+}
+
+#container{
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 2000px;
+	/*overflow: hidden;*/
+}
+
+.side-by-side{
+	display:inline-block;
+}
+
+#menu{
+	font-family: fog;
+	font-size:160%;
+	vertical-align:left;
+	text-align:inline;
+	float:left;	
+	display:inline;
+	width:80px;
+	padding-top:30px;
+	position:fixed;
+}
+
+#menu ul{
+	list-style-type: none;
+}
+
+#menu li {
+    display: inline;
+    padding: 10px;
+}
+
+#content{
+	margin-left: 80px;
+}
+
+.description{
+	background-image: url("../images/description.png");
+	background-repeat: no-repeat;
+	background-size:100%;
+	text-align:left;
+	width:520px;
+	height: 300px;
+	margin:100px;
+	padding: 3px 30px 2px 60px;
+	display: inline-block;	
+}
+
+.description p{
+	overflow: auto;
+}
+
+.right-area{
+	text-align:right;
+}
+
+.left-area{
+	text-align:left;
+}
+
+.center-area{
+	text-align:center;
+}
+
+.area{
+	background-size: 100% 100%;
+	/*background-repeat: no-repeat;*/
+	height:540px;
+	margin-right:20px;
+}
+
+.area-title{
+	font-family: fog;
+	font-size: 35pt;
+	margin-bottom:2px;
+	color: #bda50f;
+}
+
+.area-desc{
+	font-family: old;
+	font-size:14pt;
+	margin-top:2px;
+}
+
+#story{
+	background-image: url("../images/underground2.jpg");
+}
+
+#power{
+	background-image: url("../images/rutCorridor.jpg");
+}
+
+#puzzles{
+	background-image: url("../images/dark_corridor.jpg");
+}
+
+/*TRAILER */
+
+#trailer_page{
+	background-color:#000;
+	background-size:90%;
+	margin:0;
+}
+
+.trailer-content{
+	margin-top:20px;
+	text-align: center;
+}
+
+#trailer-area{
+	height:480px;
+	width:720px;
+	margin-right:100px;
+	background-image: url("../images/trailer_frame.png");
+	background-size: contain;
+	display: inline-block;
+}
+
+#trailer-video{
+	position:relative;
+	z-index: -1;
+	height:480px;
+	width:720px;
+	background-image: url("../images/temp_trailer.png");
+}
+
+/*TEAM */
+
+#team_page{
+	background-color:#000;
+	margin:0;
+	/*background-image: url("../images/monsterpit.jpg");*/
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.members{
+	margin-top:20px;
+	text-align:center;
+	padding-right:50px;
+	/*padding-left:50px;*/
+	/*padding-top:50px;*/
+	height:750px;
+/*	background-image: url("../images/container.png");
+	background-size:98% 100%;
+	background-repeat: no-repeat;*/
+	
+}
+
+#member-align{
+	display:inline-block;
+	padding:0px 20px 20px 20px;
+	height:700px;
+	/*background-image: url("../images/container.png");*/
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+}
+
+div.team {
+	background-image: url("../images/member_frame.png");
+    margin: 25px;
+    float: left;
+    width: 180px;
+}
+
+div.team img {
+	position: relative;
+	z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+div.team p{
+	font-family:old;
+	font-size:12pt;
+	text-align:left;
+}
+
+/*POWERS*/
+
+#dash{
+	background-image: url("../images/abandoned.jpg");
+}
+
+#telekinesis{
+	background-image: url("../images/ghost2.jpg");
+}
+
+#possess{
+	background-image: url("../images/rutCorridor.jpg");
+}
+
+#stun{
+	background-image: url("../images/ghost.jpg");
+}
+
+.power-title{
+	font-family: fog;
+	font-size: 35pt;
+	margin-bottom:2px;
+	color: #7EEFFF;
+}
+
+.power-desc{
+	font-family: old;
+	font-size:14pt;
+	margin-top:2px;
+}
+
+.each-power{
+	background-image: url("../images/description.png");
+	background-repeat: no-repeat;
+	background-size:100%;
+	text-align:left;
+	width:520px;
+	height: 300px;
+	margin:100px;
+	padding: 3px 30px 2px 60px;
+	display: inline-block;	
+}
+
+.right-image{
+	height:300px;
+	position: absolute;
+    right: 340px;
+	/*margin-left:150px;*/
+	margin-top:150px;
+}
+
+.left-image{
+	height:300px;
+	position: absolute;
+	left: 340px;
+	margin-top:150px;
+}
+
+/*ABOUT */
+
+#about{
+	background-image: url("../images/outside.jpg");
+	height: 82vh;
+}
+
+.about-background{
+	background-image: url("../images/description.png");
+	background-repeat: no-repeat;
+	background-size:100%;
+	text-align:left;
+	width:900px;
+	height: 500px;
+	margin:100px;
+	margin-top:50px;
+	padding: 20px 50px 2px 80px;
+	display: inline-block;	
+}
+
+.about-title{
+	font-family: fog;
+	font-size: 35pt;
+	margin-bottom:2px;
+	color: #bda50f;
+}
+
+.about-content{
+	font-family: old;
+	font-size: 14pt;
+	margin-top:0px;
+}
+
+.name-title{
+	color:#bda50f;
+}
+
