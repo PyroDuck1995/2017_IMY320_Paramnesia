@@ -22,9 +22,7 @@ body {
 	color:white;
 	font-family:Arial;
 	font-size:11pt;
-/*	overflow-y: scroll;*/
 	overflow-x: hidden;
-	position:relative;
 	min-height:100%;
 	height:100%;
 }
@@ -51,10 +49,7 @@ body {
 }
 
 .vertical{
-	/*writing-mode: sideways-lr;
-	-webkit-writing-mode: sideways-lr;*/
 	transform: rotate(90deg);
-/*	transform-origin: left top 0; */
 }
 
 .center {
@@ -139,24 +134,10 @@ h2	{
 	float:left;
 }
 
-/*.rotate {
-	transform-origin: left middle 0;
-	-webkit-transform: rotate(-90deg);
-	-moz-transform: rotate(-90deg);
-	-ms-transform: rotate(-90deg);
-	-o-transform: rotate(-90deg);
-	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-	transform: rotate(90deg);
-	transform-origin: left top 0;
-	float: left;
-	float:left
-}*/
-
 /* MAIN PAGE */
 
 #main_page{
 	background-color:#000;
-	/*background-image: url("../images/darkCorridor.png");*/
 	background-size:90%;
 	margin:0;
 }
@@ -165,7 +146,6 @@ h2	{
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 2000px;
-	/*overflow: hidden;*/
 }
 
 .side-by-side{
@@ -180,18 +160,19 @@ h2	{
 	float:left;	
 	display:inline;
 	width:80px;
-	padding-top:30px;
+	
 	position:fixed;
 }
 
 #menu ul{
 	list-style-type: none;
 	width:600px;
+	padding-left:0px;
 }
 
 #menu li {
     display: inline;
-    padding: 10px;
+    padding: 5px;
 }
 
 #content{
@@ -229,7 +210,6 @@ h2	{
 
 .area{
 	background-size: 100% 100%;
-	/*background-repeat: no-repeat;*/
 	height:540px;
 	margin-right:20px;
 }
@@ -294,7 +274,6 @@ h2	{
 #team_page{
 	background-color:#000;
 	margin:0;
-	/*background-image: url("../images/monsterpit.jpg");*/
 	background-size:cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -304,12 +283,7 @@ h2	{
 	margin-top:20px;
 	text-align:center;
 	padding-right:50px;
-	/*padding-left:50px;*/
-	/*padding-top:50px;*/
 	height:750px;
-/*	background-image: url("../images/container.png");
-	background-size:98% 100%;
-	background-repeat: no-repeat;*/
 	
 }
 
@@ -317,7 +291,6 @@ h2	{
 	display:inline-block;
 	padding:0px 20px 20px 20px;
 	height:700px;
-	/*background-image: url("../images/container.png");*/
 	background-size:100% 100%;
 	background-repeat: no-repeat;
 }
@@ -389,7 +362,6 @@ div.team p{
 	height:250px;
 	position: absolute;
     right: 340px;
-	/*margin-left:150px;*/
 	margin-top:150px;
 }
 
